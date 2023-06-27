@@ -10,17 +10,17 @@ export default function ProductDetails() {
     switch (params.id) {
         case "143":
             productData = {
-                name: 'Hoodie',
+                name: 'Necklaces',
                 price: 50.00,
-                image: require('../assets/images/good-day-to-code.jpg')
+                image: require('../assets/images/image6.jpeg')
             }
             break
         
         case "486":
             productData = {
-                name: 'Coffee Mug',
+                name: 'Bracelets',
                 price: 25.00,
-                image: require('../assets/images/eat-sleep-code-repeat.jpg')
+                image: require('../assets/images/image3.jpeg')
             }
             break
         
