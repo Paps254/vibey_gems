@@ -7,7 +7,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='logo'>
                 <i className='fa-solid fa-font-awesome'></i>
-                <a href='#'>LOGO</a>
+                <a href='/public/images/pic1.png'>LOGO</a>
             </div>
             <div className='menu'>
                 <div className='menu-links'>
