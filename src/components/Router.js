@@ -50,10 +50,12 @@ export default function Router() {
     //     }
     // ])
 
-    // add this RouterProvider in the return statement if you plan on using the createBrowserRouter
-    // <RouterProvider router={BrowserRoutes} />
+   
 
     return (
         <BrowserRoutes />
+
+         // add this RouterProvider in the return statement if you plan on using the createBrowserRouter
+        // <RouterProvider router={BrowserRoutes} />
     )
 }
