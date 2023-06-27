@@ -1,4 +1,4 @@
-import logo from '../assets/images/react-logo.png'
+import logo from '../assets/images/image1.jpeg'
 import { useContext } from 'react'
 import Context from './Context'
 
