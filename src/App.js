@@ -1,11 +1,22 @@
-
-import React from "react";
-import Home from "./pages/Home"
+import './App.css'
+import Router from './components/Router'
+import Context from './components/Context'
 
 function App() {
+  const userInfo = {
+    name: "Johnny",
+    email: "codrkai@gamil.com",
+    loggedIn: true,
+    cartItems: 4
+  }
+
   return (
-    <Home />
-  )
+    <>
+      <Context.Provider value={userInfo}>
+        <Router />
+      </Context.Provider>
+    </>
+  );
 }
 
 export default App;
