@@ -7,8 +7,17 @@ export default function ProductDetails() {
     const params = useParams()
     let productData = null
 
+    //database lookup using id
+    //if (params.id === '123'){
+        //productData = {
+            //name: 'necklaces',
+            //price: 50.00,
+            //image: require('../assets/images/image7.jpg'),
+        //}
+    //}
+
     switch (params.id) {
-        case "143":
+        case "123":
             productData = {
                 name: 'Necklaces',
                 price: 50.00,
@@ -16,7 +25,7 @@ export default function ProductDetails() {
             }
             break
         
-        case "486":
+        case "456":
             productData = {
                 name: 'Bracelets',
                 price: 25.00,
